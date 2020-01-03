@@ -1,14 +1,15 @@
 <template>
 	<div id="app">
-		<div id="nav">
-			<router-link to="/">
-				Home
-			</router-link> |
-			<router-link to="/about">
-				About
-			</router-link>
-		</div>
-		<router-view />
+		<ion-app>
+			<ion-header>
+				<ion-toolbar color="light">
+					<ion-title>Ionic App</ion-title>
+				</ion-toolbar>
+			</ion-header>
+			<ion-content>
+				<ion-vue-router />
+			</ion-content>
+		</ion-app>
 	</div>
 </template>
 
