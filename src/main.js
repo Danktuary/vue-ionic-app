@@ -5,6 +5,8 @@ import router from './router/index.js'
 import './registerServiceWorker.js'
 import '@ionic/core/css/core.css'
 import '@ionic/core/css/global.bundle.css'
+import '@ionic/core/css/padding.css'
+import '@ionic/core/css/flex-utils.css'
 import './assets/css/ionic-variables.css'
 
 Vue.use(Ionic)
