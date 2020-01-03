@@ -6,4 +6,9 @@ module.exports = {
 		appleMobileWebAppCapable: 'yes',
 		appleMobileWebAppStatusBarStyle: 'black',
 	},
+	pluginOptions: {
+		autoRouting: {
+			chunkNamePrefix: 'page-',
+		},
+	},
 }
