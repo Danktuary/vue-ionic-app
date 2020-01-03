@@ -1,18 +1,23 @@
 <template>
-	<div class="home">
-		<img alt="Vue logo" src="../assets/logo.png" />
-		<HelloWorld msg="Welcome to Your Vue.js App" />
-	</div>
+	<ion-card>
+		<img src="../assets/logo.png" alt="Vue" />
+		<ion-card-header>
+			<ion-card-title>Title</ion-card-title>
+			<ion-card-subtitle>Some subtitle text</ion-card-subtitle>
+		</ion-card-header>
+		<ion-card-content>
+			<router-link to="/">
+				Home
+			</router-link> |
+			<router-link to="/about">
+				About
+			</router-link>
+		</ion-card-content>
+	</ion-card>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
 	name: 'Home',
-	components: {
-		HelloWorld,
-	},
 }
 </script>
