@@ -1,6 +1,6 @@
 {
   "appId": "com.ionic.app",
-  "appName": "ionicApp",
+  "appName": "ionic-app",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "dist",
