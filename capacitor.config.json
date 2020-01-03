@@ -1,0 +1,8 @@
+{
+  "appId": "com.ionic.app",
+  "appName": "ionicApp",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "dist",
+  "cordova": {}
+}
